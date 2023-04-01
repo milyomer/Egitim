@@ -1,33 +1,34 @@
-	import java.util.*;
-	import java.io.*;
-public class deneme {
-public static void main(String[] args) {
+	import java.util.Scanner;
 
-	        Scanner sc = new Scanner(System.in);
-	        int t=sc.nextInt();
+	public class deneme {
+	            public static void main(String[] args) {
+	                Scanner scanner = new Scanner(System.in);
+	                int number1,number2;
+	                System.out.print("Please enter the first number: ");
+	                number1 = scanner.nextInt();
+	                System.out.print("Please enter the second number: ");
+	                number2 = scanner.nextInt();
 
-	        for(int i=0;i<t;i++)
-	        {
+	                int i = (number1<number2)? number1 : number2;
 
-	            try
-	            {
-	                long x=sc.nextLong();
-	                System.out.println(x+" can be fitted in:");
-	                if(x>=-128 && x<=127)System.out.println("* byte");
-	                if(x>=-32768 && x<=32767)System.out.println("* short");
-	                if(x>=-2147483648 && x<=2147483647)System.out.println("* int");
-	                if(x<-2147483648 && x>2147483647)System.out.println("* long");
-	                //Complete the code
-	            }
-	            catch(Exception e)
-	            {
-	                System.out.println(sc.next()+" can't be fitted anywhere.");
+	                while(true){
+	                    if(number1 % i ==0 && number2 % i ==0){
+	                        System.out.println("GCD: "+i);
+	                        break;
+	                    }
+	                    i--;
+	                }
+	                int k = 1;
+	                while(k <= number1*number2){
+	                    if(k % number1 == 0 && k % number2 == 0){
+	                        System.out.println("LCM: "+k);
+	                        break;
+	                    }
+	                    k++;
+	                }
+
 	            }
 
 	        }
-	    }
 
 
-
-
-}
