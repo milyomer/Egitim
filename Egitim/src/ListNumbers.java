@@ -25,5 +25,6 @@ public class ListNumbers {
 			System.out.println("Küçükten büyüğe sıralamanız c < a < b dir.");
 		else
 			System.out.println("Küçükten büyüğe sıralamanız c < b < a dir.");
+		System.out.println("deneme");
 	}
 }
