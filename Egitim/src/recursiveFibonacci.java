@@ -10,5 +10,6 @@ public class recursiveFibonacci {
 		System.out.print("Lütfen bir sayı giriniz: ");
 		int number = input.nextInt();
 		System.out.println(fibonacci(number));
+				
 	}
 }
