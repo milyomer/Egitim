@@ -18,7 +18,7 @@ public class isPalindrom {
 	}
 }
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 //public class isPalindrom {
 //    static void isPalindrome(int number) {
