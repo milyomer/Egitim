@@ -31,5 +31,3 @@
 //        System.out.println( "Each team has n players in " + getName() );
 //    }
 //}
-
-class car
