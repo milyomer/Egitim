@@ -33,7 +33,7 @@ import java.util.Arrays;
 //        System.out.println( "Each team has n players in " + getName() );
 //    }
 //}
-<<<<<<< HEAD
+//<<<<<<< HEAD
 
 //public class deneme2 {
 //	public static void main(String[] args) {
@@ -141,5 +141,5 @@ public class deneme2 {
 //		        System.out.println(a[i]);
 //		    }
 //		}
-=======
->>>>>>> branch 'master' of https://github.com/milyomer/egitim.git
+//=======
+//>>>>>>> branch 'master' of https://github.com/milyomer/egitim.git
